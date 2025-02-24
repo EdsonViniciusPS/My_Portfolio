@@ -63,17 +63,16 @@ body {
 .profile-info {
     display: flex;
     align-items: center;
-    gap: 2rem;
-    margin: 2rem 0;
+    gap: 1rem;
+    margin: 1rem 0;
 }
-
-.profile-pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
+  .profile-pic {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center 0%;
+  }
 .skills-grid {
     display: flex;
     flex-wrap: wrap;
